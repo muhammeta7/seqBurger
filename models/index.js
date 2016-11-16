@@ -8,12 +8,16 @@ var env       = process.env.NODE_ENV || 'development';
 var config    = require(__dirname + '/../config/config.json')[env];
 var db        = {};
 
-if (config.use_env_variable) {
-  var sequelize = new Sequelize(process.env[config.use_env_variable]);
+var sequelize;
+if (process.env.JAWSDB_URL) {
+  sequelize = new Sequelize(process.env.JAWSDB_URL);
 } else {
-  var sequelize = new Sequelize(config.database, config.username, config.password, config);
+  sequelize = new Sequelize('burgers_db', 'root', 'Paswerd7?2790', {
+    host: 'localhost',
+    dialect: 'mysql',
+    port: '3306'
+  });
 }
-
 fs
   .readdirSync(__dirname)
   .filter(function(file) {
