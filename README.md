@@ -6,7 +6,7 @@ Using sequelize and node express servers, HW15 of the coding bootcamp is to crea
 
 ### Getting Started
 
-heroku link: Coming Soon
+heroku link: https://burgersequelized.herokuapp.com/
 
 
 ## Technologies used 
