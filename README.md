@@ -1,17 +1,15 @@
-# Eat-A-Burger
-
-A template for an express server using a MySQL localhost connection and the handlebars file structure
+# Sequelize a Burger
 
 ### Overview
 
-Brief Description of Project 
+Using sequelize and node express servers, HW15 of the coding bootcamp is to create a burger app with associations and migrations. The user will be able to create a burger or devour one. Sequelize will initialize a database to update the HTML on screen based on user actions.
 
 ### Getting Started
 
-heroku link: type link here
+heroku link: Coming Soon
 
 
-## Technologies used (fill in with applicable technologies)
+## Technologies used 
 - Node.js
 - npm express (https://www.npmjs.com/package/express)
 - npm body-parser (https://www.npmjs.com/package/body-parser)
@@ -30,44 +28,6 @@ See package.json
 
 ## Directory Structure
 
-#### MVC File Layout
-
-```
-.
-├── config
-│   ├── connection.js
-│   └── orm.js
-│ 
-├── controllers
-│   └── burgers_controller.js
-│
-├── db
-│   ├── schema.sql
-│   └── seeds.sql
-│
-├── models
-│   └── burger.js
-│ 
-├── node_modules
-│ 
-├── package.json
-│
-├── public
-│   ├── assets
-│   │   ├── css
-│   │   │   └── burger_style.css
-│   │   └── img
-│   │       └── burger.png
-│   └── test.html
-│
-├── server.js
-│
-└── views
-    ├── index.handlebars
-    └── layouts
-        └── main.handlebars
-
-```
 
 #### Sequelize MVC File Layout
 
@@ -103,7 +63,7 @@ See package.json
 ```
 
 
-## Built With (fill in with applicable fields)
+## Built With 
 
 * Node
 * Sequelize
@@ -112,7 +72,7 @@ See package.json
 
 ## Authors
 
-* **Muhammet Aydin** - *Sequelize/Node/Express* - [Muhammet Aydin](https://github.com/muhammeta7/burger)
+* **Muhammet Aydin** - *Sequelize/Node/Express* - [Muhammet Aydin](https://github.com/muhammeta7/sequelizedBurger)
 
 ## Acknowledgements
 
