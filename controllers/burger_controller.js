@@ -11,16 +11,13 @@ router.get('/', function (req, res) {
 });
 
 // Displays burger list
-
 router.get('/index', function (req, res) {
-  
   Burger.all ({})
   .then(function(result){
     var burgerObj = { burgerList: result };
     console.log(burgerObj);
     res.render('index', burgerObj);
   });
-
 });
 
 // Create Burger 
@@ -34,6 +31,7 @@ router.post('/burgers/create', function(req, res){
     devoured: false
   });
   res.redirect('/index');
+  return false;
 
 });
 
@@ -54,6 +52,7 @@ router.put('/burgers/update/:id', function (req, res) {
       });
     }
     res.redirect('/index');
+    return false;
   });
 
 });
