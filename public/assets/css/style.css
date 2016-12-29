@@ -1,4 +1,13 @@
-.images {
-  width: 250px;
-  height: 250px;
+body {
+  background-image: url('../img/background.jpg')
+}
+
+.jumbotron h1 {
+  text-align: center;
+  font-family: 'Baloo Thambi', cursive;
+  color: white;
+}
+
+.jumbotron {
+  background-color: blue;
 }
