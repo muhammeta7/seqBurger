@@ -8,18 +8,18 @@
 
           <div class="row">
 
-            <div class="col-md-7" style='text-align: left;'>
+            <div class="col-md-8">
 
               {{#each burgerList}}
                 {{#unless this.devoured}}
-                  <p>ID: {{this.id}} | Burger Name: {{this.burgerName}}</p>
+                  <p>Burger Name: {{this.burgerName}}</p>
                   <br>
                 {{/unless}}
               {{/each}}
 
             </div>
 
-            <div class="col-md-5">
+            <div class="col-md-4">
               
               {{#each burgerList}}
                 {{#unless this.devoured}}
@@ -46,11 +46,11 @@
 
     <div class="panel panel-primary text-center">
       <div class="panel-heading"><h4>Burgers Devoured!</h4></div>
-        <div class="panel-body" style='text-align: left;'>
+        <div class="panel-body" style='text-align: center;'>
           
           {{#each burgerList}}
             {{#if this.devoured}}
-                <p>ID: {{this.id}} | Burger Name:{{this.burgerName}}</p>
+                <p>Burger Name: {{this.burgerName}}</p>
             {{/if}}
           {{/each}}
           
@@ -68,7 +68,7 @@
 
           <form class="create-update-form" action="burgers/create" method="POST">
             <div class="form-group">
-              <label for="burgerName">Burger Name:</label>
+              <label for="burgerName">Burger Name: </label>
               <input type="text" id="burgerName" name="burgerName">
               <button type="submit"  class="btn btn-lg btn-success">Create Burger!</button>
             </div>
