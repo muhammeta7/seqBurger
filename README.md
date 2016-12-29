@@ -11,9 +11,9 @@ heroku link: https://burgersequelized.herokuapp.com/
 
 ## :satellite: Technologies used 
 
-Frontend: Bootstrap and Google-Fonts are used for the styling framework. Handlebars is used to render newly created burger into relevant sections of page.
+Frontend: `Bootstrap` and Google-Fonts are used for the styling framework. Handlebars is used to render newly created burger into relevant sections of page.
 
-Backend: App uses 'express' to serve routes and 'sequelize' to interact with a 'mySQL' database. Refer to burger_controller.js file to see routes. 
+Backend: App uses  `express` to serve routes and  `sequelize` to interact with a `mySQL` database. Refer to burger_controller.js file to see routes. 
 
 ### Prerequisites
 
