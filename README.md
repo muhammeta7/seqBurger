@@ -1,4 +1,4 @@
-# Sequelize a Burger
+## :hamburger: Sequelize a Burger :fries:
 
 ### Overview
 
@@ -9,20 +9,17 @@ Using sequelize and node express servers, HW15 of the coding bootcamp is to crea
 heroku link: https://burgersequelized.herokuapp.com/
 
 
-## Technologies used 
-- Node.js
-- npm express (https://www.npmjs.com/package/express)
-- npm body-parser (https://www.npmjs.com/package/body-parser)
-- npm method-override (https://www.npmjs.com/package/method-override)
-- npm handlebars (https://www.npmjs.com/package/handlebars)
-- npm express-handlebars (https://www.npmjs.com/package/express-handlebars)
-- npm mysql (https://www.npmjs.com/package/mysql)
-- npm sequelize (https://www.npmjs.com/package/sequelize)
+## :satellite: Technologies used 
+
+Frontend: Bootstrap and Google-Fonts are used for the styling framework. Handlebars is used to render newly created burger into relevant sections of page.
+
+Backend: App uses 'express' to serve routes and 'sequelize' to interact with a 'mySQL' database. Refer to burger_controller.js file to see routes. 
 
 ### Prerequisites
 
 ```
 See package.json
+
 ```
  
 
@@ -61,7 +58,16 @@ See package.json
         └── main.handlebars
 
 ```
+## Screenshots
 
+### Landing Page
+![Landing Page](/screenshots/landing.png)
+
+#### Create a New Burger Section
+![View Comments](/screenshots/create.png)
+
+#### New Burger Appears on Burger List & Devour Burger
+![View Comments](/screenshots/delete.png)
 
 ## Built With 
 
@@ -72,7 +78,7 @@ See package.json
 
 ## Authors
 
-* **Muhammet Aydin** - *Sequelize/Node/Express* - [Muhammet Aydin](https://github.com/muhammeta7/sequelizedBurger)
+* **Muhammet Aydin** - *Sequelize/Node/Express* - [Muhammet Aydin](https://github.com/muhammeta7)
 
 ## Acknowledgements
 
