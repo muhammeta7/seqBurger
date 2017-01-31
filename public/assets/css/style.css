@@ -1,5 +1,6 @@
 body {
-  background-image: url('../img/background.jpg')
+  background-image: url('../img/background.jpg');
+  padding-bottom: 80px;
 }
 
 /* Jumbotron */
@@ -28,9 +29,6 @@ h4{
   font-size: 24px;
 }
 
-.footer{
- position:fixed;
- bottom:0;
- width: 100%;
- text-align: center;
+.copyright {
+  text-align: center;
 }
