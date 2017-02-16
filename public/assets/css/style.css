@@ -3,21 +3,15 @@ body {
   padding-bottom: 80px;
 }
 
-/* Jumbotron */
-.jumbotron h2 {
+/* Navbar */
+.navbar-brand {
   text-align: center;
   font-family: 'Baloo Thambi', cursive;
-  color: white;
   font-size: 48px;
-}
-
-.jumbotron {
-  background-color: blue;
 }
 
 p {
   font-size: 24px;
-  font-family: 'Indie Flower', cursive;
 }
 
 h3 {
