@@ -27,20 +27,16 @@
         <div class="panel-body">
 
           <div class="row">
-
             <div class="col-md-8">
-
               {{#each burgerList}}
                 {{#unless this.devoured}}
                   <p>Burger Name: {{this.burgerName}}</p>
                   <br>
                 {{/unless}}
               {{/each}}
-
             </div>
-
+ 
             <div class="col-md-4">
-              
               {{#each burgerList}}
                 {{#unless this.devoured}}
                   <form action="burgers/update/{{this.id}}?_method=PUT" method="POST">
@@ -50,9 +46,7 @@
                   <br>
                 {{/unless}}
               {{/each}}
-
             </div>
-
           </div>
 
           

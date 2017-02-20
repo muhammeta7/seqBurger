@@ -1,7 +1,11 @@
-body {
-  background-image: url('../img/background.jpg');
-  padding-bottom: 80px;
+body { 
+  background: url('../img/background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 
 /* Navbar */
 .navbar-brand {
@@ -9,6 +13,8 @@ body {
   font-family: 'Baloo Thambi', cursive;
   font-size: 48px;
 }
+
+
 
 p {
   font-size: 24px;
@@ -19,10 +25,11 @@ h3 {
 }
 
 h4{
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Baloo Thambi', cursive;
   font-size: 24px;
 }
 
 .copyright {
   text-align: center;
+  padding-top: 20px;
 }
