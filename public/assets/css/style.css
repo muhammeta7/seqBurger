@@ -14,7 +14,7 @@ body {
   font-size: 48px;
 }
 
-
+/* Form */
 #createButton {
   margin-top: 20px;
 }
@@ -23,6 +23,7 @@ label {
   font-size: 24px;
 }
 
+/* In App Text*/
 p {
   font-size: 16px;
 }

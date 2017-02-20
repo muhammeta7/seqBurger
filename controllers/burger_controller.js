@@ -31,8 +31,6 @@ router.post('/burgers/create', function(req, res){
     devoured: false
   });
   res.redirect('/index');
-  return false;
-
 });
 
 //  Update burgers that are devoured
@@ -52,7 +50,6 @@ router.put('/burgers/update/:id', function (req, res) {
       });
     }
     res.redirect('/index');
-    return false;
   });
 
 });

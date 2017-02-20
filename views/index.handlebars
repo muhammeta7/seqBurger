@@ -7,7 +7,7 @@
         <div class="panel-body">
 
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 col-xs-8">
               {{#each burgerList}}
                 {{#unless this.devoured}}
                   <p>Burger Name: {{this.burgerName}}</p>
@@ -16,7 +16,7 @@
               {{/each}}
             </div>
  
-            <div class="col-md-4">
+            <div class="col-md-4 col-xs-4">
               {{#each burgerList}}
                 {{#unless this.devoured}}
                   <form action="burgers/update/{{this.id}}?_method=PUT" method="POST">
@@ -64,7 +64,7 @@
             <div class="form-group">
               <label for="burgerName">Burger Name</label>
               <textarea id="burgerName" name="burgerName" class="form-control" columns="10" rows="3"> </textarea>
-              <button type="submit"  class="btn btn-success" id="createButton">Create Burger!</button>
+              <button type="submit"  class="btn btn-lg btn-success" id="createButton">Create Burger!</button>
             </div>
           </form>
         </div>
