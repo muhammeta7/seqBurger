@@ -79,7 +79,3 @@ See package.json
 ## Authors
 
 * **Muhammet Aydin** - *Sequelize/Node/Express* - [Muhammet Aydin](https://github.com/muhammeta7)
-
-## Acknowledgements
-
-Dan and Nate for all the help
